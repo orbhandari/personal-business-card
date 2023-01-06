@@ -1,0 +1,67 @@
+html {
+  background-color: #dfdbe5;
+  background-color: #e6e6e6;
+  background-color: #e6e6e6;
+  background-image: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d1d1d1' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  font-family: "Roboto Mono", monospace;
+}
+
+.centerFlex {
+  display: grid;
+  place-content: center center;
+  min-height: 100vh;
+}
+
+.container {
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px;
+  padding: 50px;
+  width: 400px;
+  background-color: white;
+}
+
+h1 {
+  margin: 0;
+  font-weight: bold;
+  color: rgb(15 23 42);
+}
+
+h2 {
+  font-weight: lighter;
+  margin: 0;
+  color: rgb(107 114 128);
+}
+
+p {
+  font-weight: lighter;
+  font-size: 0.875em;
+  margin: zero;
+  color: rgb(156 163 175);
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(156 163 175);
+  border-style: solid;
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+a:focus {
+  color: black;
+}
+a:active {
+  color: black;
+}
